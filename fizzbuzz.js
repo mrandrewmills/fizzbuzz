@@ -13,7 +13,7 @@
  * methods:
  * play();
  *
- * Usage: 
+ * Usage:
  *    example 1:
  *    fizzbuzz.play(); // uses default values
  *
@@ -31,15 +31,20 @@ var fizzbuzz = {
    txtFizz: "fizz",
    txtBuzz: "buzz",
    play: function(){
+
+      var sayThis = [];
+
       for (x = this.start; x <= this.finish; x++) {
-          var sayThis = "";
 
-          if (x % this.modFizz == 0) { sayThis += this.txtFizz; }
-          if (x % this.modBuzz == 0) { sayThis += this.txtBuzz; }
+          sayThis[x] = "";
 
-          if (sayThis == "") { sayThis = x; }
+          if (x % this.modFizz == 0) { sayThis[x] += this.txtFizz; }
+          if (x % this.modBuzz == 0) { sayThis[x] += this.txtBuzz; }
 
-          console.log(sayThis);
+          if (sayThis[x] == "") { sayThis[x] = x; }
+          
       }
+
+      return sayThis;
    }
 }
