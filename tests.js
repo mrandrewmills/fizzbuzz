@@ -1,6 +1,6 @@
 QUnit.test( "default values initialization", function(assert) {
   assert.equal(fizzbuzz.start, 1, "We expect start to be 1.");
-  assert.equal(fizzbuzz.finish, 100, "We expect start to be 100.");
+  assert.equal(fizzbuzz.finish, 100, "We expect finish to be 100.");
   assert.equal(fizzbuzz.modFizz, 3, "We expect modFizz to be 3.");
   assert.equal(fizzbuzz.modBuzz, 5, "We expect modBuzz to be 5.");
   assert.equal(fizzbuzz.txtFizz, "fizz", "We expect txtFizz to be 'fizz.'");
