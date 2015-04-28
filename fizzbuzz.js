@@ -24,27 +24,29 @@
  */
 
 var fizzbuzz = {
-   start: 1,
-   finish: 100,
-   modFizz: 3,
-   modBuzz: 5,
-   txtFizz: "fizz",
-   txtBuzz: "buzz",
-   play: function(){
 
-      var sayThis = [];
+        start: 1,
+        finish: 100,
+        modFizz: 3,
+        modBuzz: 5,
+        txtFizz: "fizz",
+        txtBuzz: "buzz",
+        play: function () {
+            "use strict";
 
-      for (x = this.start; x <= this.finish; x++) {
+            var x, sayThis = [];
 
-          sayThis[x] = "";
+            for (x = this.start; x <= this.finish; x += 1) {
 
-          if (x % this.modFizz == 0) { sayThis[x] += this.txtFizz; }
-          if (x % this.modBuzz == 0) { sayThis[x] += this.txtBuzz; }
+                sayThis[x] = "";
 
-          if (sayThis[x] == "") { sayThis[x] = x; }
-          
-      }
+                if (x % this.modFizz === 0) { sayThis[x] += this.txtFizz; }
+                if (x % this.modBuzz === 0) { sayThis[x] += this.txtBuzz; }
 
-      return sayThis;
-   }
-}
+                if (sayThis[x] === "") { sayThis[x] = x; }
+
+            }
+
+            return sayThis;
+        }
+    };
