@@ -10,7 +10,13 @@ QUnit.test( "default values initialization", function(assert) {
 results = fizzbuzz.play();
 
 QUnit.test( "check quantity of results", function(assert) {
-  assert.equal(results.length, 101, "We expect play method to return 101 elements [JavaScript uses 0-based arrays].");
+
+  counter = 0;
+  for (let answer of results) {
+    counter++;
+  }
+  
+  assert.equal(counter, 101, "We expect play method to return 101 elements [JavaScript uses 0-based arrays].");
 });
 
 QUnit.test( "check individual results", function(assert){
