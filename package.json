@@ -1,0 +1,6 @@
+{
+  "name": "fizzbuzz",
+  "scripts": {
+    "test": "grunt travis"
+  }
+}
