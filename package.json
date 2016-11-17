@@ -1,6 +1,31 @@
 {
-  "name": "fizzbuzz",
-  "scripts": {
-    "test": "grunt travis"
-  }
+	"name": "fizzbuzz",
+	"version": "0.0.1",
+	"description": "the fizzbuzz game as a JavaScript object",
+	"keywords": [
+		"fizzbuzz"
+	],
+	"homepage": "https://github.com/mrandrewmills/fizzbuzz",
+	"bugs": "https://github.com/mrandrewmills/fizzbuzz/issues",
+	"author": {
+		"name": "Andrew Mills",
+		"web": "https://github.com/mrandrewmills"
+	},
+	"main": "./fizzbuzz.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mrandrewmills/fizzbuzz.git"
+	},
+	"scripts": {
+			"test": "node ./tests.js"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"qunit": "~0.5.1"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://mit-license.org/"
+	}]
 }
