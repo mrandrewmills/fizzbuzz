@@ -1,6 +1,6 @@
-var qunit = require('qunit');
+var QUnit = require('qunit');
 
-qunit.run({
+QUnit.run({
     code: {
 
 		// Include the source code

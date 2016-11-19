@@ -17,7 +17,7 @@
 		"url": "git://github.com/mrandrewmills/fizzbuzz.git"
 	},
 	"scripts": {
-			"test": "node ./tests/tests.js"
+			"test": "node ./tests/node-index.js"
 	},
 	"dependencies": {
 	},
