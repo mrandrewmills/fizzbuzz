@@ -25,6 +25,7 @@ QUnit.test("check quantity of results", function (assert) {
 QUnit.test( "check individual results", function(assert){
     "use strict";
 
+    var x;
     for (x = fizzbuzz.start; x <= fizzbuzz.finish; x++) {
       assert.ok(
         (results[x] == x) ||
