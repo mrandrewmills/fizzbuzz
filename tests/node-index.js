@@ -15,5 +15,5 @@ qunit.run({
 		// Include the test suite(s)
 		'fizzbuzz.test.js'
 
-    ].map(function (v) { return './test/' + v; })
+  ].map(function (v) { return './tests/' + v; })
 });

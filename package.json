@@ -11,13 +11,13 @@
 		"name": "Andrew Mills",
 		"web": "https://github.com/mrandrewmills"
 	},
-	"main": "./fizzbuzz.js",
+	"main": "./src/fizzbuzz.js",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/mrandrewmills/fizzbuzz.git"
 	},
 	"scripts": {
-			"test": "node ./tests.js"
+			"test": "node ./tests/tests.js"
 	},
 	"dependencies": {
 	},
