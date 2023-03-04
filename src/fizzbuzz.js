@@ -7,7 +7,7 @@
  * finish - integer (optional, defaults to 100)
  * modFizz - integer (optional, defaults to 3)
  * modBuzz - integer (optional, defaults to 5)
- * txtFixx - string (optional, defaults to "fizz")
+ * txtFizz - string (optional, defaults to "fizz")
  * txtBuzz - string (optional, defaults to "buzz")
  *
  * methods:
